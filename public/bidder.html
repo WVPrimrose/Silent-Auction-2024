@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bidder Information</title>
+    <link rel="stylesheet" href="Assets/css/form.css">
+</head>
+<body>
+  <header>
+    <a href="index.html"><button>↵ Back to Main Page</button></a>
+    <h1>Bidder Form Information</h1>
+    <p>* = denotes required field</p>
+    <p>This form is required, so we can keep track of bidder contact information.</p>
+  </header>
+  
+  <main>
+    <form action="">
+      <h2>Contact Information</h2>
+      <label for="name" class="form-label-title">Name*:</label>
+      <br>
+      <input type="text" id="name" placeholder="Enter Name" class="text-input" required>
+      <br>
+      <label for="email" class="form-label-title">Email Address*:</label>
+      <br>
+      <input type="email" name="email" id="email" placeholder="Enter Email" class="text-input" required>
+      <br>
+      <label for="telphone" class="form-label-title">Phone Number*:</label>
+      <br>
+      <input type="tel" name="phone-number" id="phone-number" placeholder="(000)-000-0000" class="text-input" required>
+      <br>
+      <input type="reset" id="reset" value="reset" class="bottom-button"> <br>
+      <input type="submit" id="submit" value="submit" class="bottom-button">
+    </form>
+  </main>
+
+  <script src="Assets/js/script.js"></script>
+</body>
+</html>
