@@ -1,0 +1,102 @@
+*{
+    background-color: #ffcb8f;
+}
+
+h1,
+h2,
+p {
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #412a00;
+}
+
+h1 {
+    font-size: 45px;
+    font-weight: 700;
+    background-color:#ffffff;
+    border-radius: 30px;
+    box-shadow: 0px 0px 50px 10px #000000;
+    border: 2px solid #000000;
+    position: relative;
+    bottom: 10px;
+    text-shadow: 0px 0px 10px #fffb00, 0px 0px 5px #970000;
+}
+
+h2 {
+    font-size: 30px;
+    background-color: #ffffff;
+    text-decoration-line: underline;
+    border-radius: 15px;
+    box-shadow: 0px 0px 20px 5px #000000;
+}
+
+div,
+p,
+p a,
+p strong em {
+    background-color:#ffffff;
+    font-size: 20px;
+}
+
+main h3 {
+    display: inline;
+    position: relative;
+    margin: 5px;
+    bottom: 375px;
+    left: 50px;
+}
+
+main img {
+    position: relative;
+    right: 200px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: 5px #000000 solid;
+}
+
+main img:hover {
+    border-color: #970000;
+}
+
+main img:active {
+    border-color: #dd6300;
+}
+
+main img:focus {
+    border-color: #fffb00;
+}
+
+footer, 
+footer a{
+    background-color:#ffffff;
+}
+
+footer img {
+    width: 10%;
+    height: 10%;
+    margin-left: 575px;
+    border-radius: 40px;
+}
+
+.bigimg {
+    width: 30%;
+    height: 30%;
+}
+
+#aladdin{
+position: relative;
+top: 5px;
+}
+
+#baseball{
+    margin-bottom: 150px;
+    margin-right: -150px;
+}
+
+#chocolate{
+    position: relative;
+    left: 1000px;
+    bottom: 350px;
+    width: 20%;
+    height: 20%;
+}
