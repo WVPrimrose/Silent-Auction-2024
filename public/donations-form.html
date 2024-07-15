@@ -46,7 +46,7 @@
       <input type="checkbox" name="other" id="other">
       <option value="other">Other</option>
       <br>
-      <h2>Donation Levels</h2>
+      <h2>Select a Donation Amount</h2>
       <input type="radio" name="$10">
       <option value="$10">$10</option>
       <input type="radio" name="$15">
@@ -65,8 +65,24 @@
       <option value="$200">$200</option>
       <label for="other-amount">Other Amount</label>
       <input type="number" name="other-amount" id="other-amount">
-
-      <input type="reset" id="reset" value="reset" class="bottom-button"> <br>
+      <br>
+      <input type="checkbox" name="name-on-donation" id="name-on-donation">
+      <label for="name-on-donation">Name on donation</label>
+      <input type="text">
+      <input type="checkbox" name="anonymous" id="anonymous">
+      <label for="anonymous">I would like to make my donation anonymous.</label>
+      <input type="checkbox" name="honor-memory" id="honor-memory">
+      <label for="honor-memory">Dedicate my donation in honor or memory of someone:</label>
+      <input type="radio" name="honor" id="honor">
+      <label for="honor">In honor of</label>
+      <input type="text">
+      <input type="radio" name="memory" id="memory">
+      <label for="memory">In memory of</label>
+      <input type="text" placeholder="Honoree">
+      <input type="text">
+      <label for="support-reason">Why do you choose to support M3?</label>
+      <textarea name="support" id="support"></textarea>
+      <input type="reset" id="reset" value="reset" class="bottom-button"> 
       <input type="submit" id="submit" value="submit" class="bottom-button">
     </form>
   </main>
