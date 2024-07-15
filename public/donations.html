@@ -4,16 +4,14 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Bidder Information</title>
+  <title>Donations Form</title>
   <link rel="stylesheet" href="Assets/css/form.css">
 </head>
 
 <body>
   <header>
     <a href="index.html"><button>↵ Back to Main Page</button></a>
-    <h1>Bidder Form Information</h1>
-    <p>* = denotes required field</p>
-    <p>This form is required, so we can keep track of bidder contact information.</p>
+    <h1>Dontations Form</h1>
   </header>
 
   <main>
@@ -47,6 +45,26 @@
       <option value="google">Google</option>
       <input type="checkbox" name="other" id="other">
       <option value="other">Other</option>
+      <br>
+      <h2>Donation Levels</h2>
+      <input type="radio" name="$10">
+      <option value="$10">$10</option>
+      <input type="radio" name="$15">
+      <option value="$15">$15</option>
+      <input type="radio" name="$20">
+      <option value="$20">$20</option>
+      <input type="radio" name="$25">
+      <option value="$25">$25</option>
+      <input type="radio" name="$50">
+      <option value="$50">$50</option>
+      <input type="radio" name="$100">
+      <option value="$100">$100</option>
+      <input type="radio" name="$150">
+      <option value="$150">$150</option>
+      <input type="radio" name="$200">
+      <option value="$200">$200</option>
+      <label for="other-amount">Other Amount</label>
+      <input type="number" name="other-amount" id="other-amount">
 
       <input type="reset" id="reset" value="reset" class="bottom-button"> <br>
       <input type="submit" id="submit" value="submit" class="bottom-button">

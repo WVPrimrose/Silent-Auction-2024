@@ -2,12 +2,16 @@
     background-color: #ffcb8f;
 }
 
-button {
+a button {
     display: inline;
     background-color:#970000;
     color:#ffffff;
     position: relative;
     left: 300px;
+    text-decoration: none;
+}
+
+a button:visited {
     text-decoration: none;
 }
 
@@ -39,8 +43,8 @@ form input {
 }
 
 .form-label-title {
-    background-color: #ffae00;
     font-size: 18px;
+    font-weight: 900; 
 }
 
 .if-q {

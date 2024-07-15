@@ -2,12 +2,25 @@
     background-color: #ffcb8f;
 }
 
+/* body {
+    position: relative;
+} */
+
 h1,
 h2,
 p {
     text-align: center;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: #412a00;
+}
+
+a {
+    text-decoration: none;
+    color:#000000;
+}
+
+a:visited {
+    color:#000000;
 }
 
 h1 {
@@ -38,6 +51,17 @@ p strong em {
     font-size: 20px;
 }
 
+p button a,
+button,
+button a {
+    background-color: #fffb00;
+    color: #000000;
+    font-size: 20px;
+    font-weight: 700;
+    border-width: 3px;
+    border-radius: 30px;
+}
+
 main h3 {
     display: inline;
     position: relative;
@@ -66,15 +90,21 @@ main img:focus {
     border-color: #fffb00;
 }
 
+section {
+    position: relative;
+    bottom: 200px;
+    background-color: #ffffff;
+}
+
 footer, 
 footer a{
     background-color:#ffffff;
 }
 
 footer img {
-    width: 10%;
-    height: 10%;
-    margin-left: 575px;
+    width: 7%;
+    height: 7%;
+    margin-left: 800px;
     border-radius: 40px;
 }
 
@@ -99,4 +129,29 @@ top: 5px;
     bottom: 350px;
     width: 20%;
     height: 20%;
+}
+
+.m3-links {
+    text-decoration: none;
+}
+
+#social-media {
+    font-size: 20px;
+    margin-left: 400px;
+    box-shadow: none;
+}
+
+#website {
+    display: inline;
+}
+
+#donations{
+    display: inline;
+    text-align: center;
+    margin-left: 350px;
+}
+
+.donate-button {
+    margin-left: 15px;
+
 }
