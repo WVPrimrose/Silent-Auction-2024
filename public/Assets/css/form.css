@@ -38,7 +38,8 @@ form input {
     margin-bottom: 10px;
 }
 
-form input {
+form input,
+textarea {
     background-color: #ffffff;
 }
 
@@ -70,12 +71,12 @@ form input {
     border-radius: 5px;
 }
 
-.address-input {
+/* .address-input {
     margin-bottom: -10px;
-}
+} */
 
 .check-box-label {
-margin-left: 0px;
+display: inline;
 }
 
 .bottom-button {
@@ -85,7 +86,7 @@ margin-left: 0px;
     color:#ffffff;
 }
 
-#address {
+/* #address {
     text-decoration: none;
     color:#970000;
     background-color: #ffffff;
@@ -93,4 +94,4 @@ margin-left: 0px;
 
 #address:hover {
     text-decoration: none;
-}
+} */
