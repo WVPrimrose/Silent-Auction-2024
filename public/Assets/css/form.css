@@ -86,12 +86,25 @@ display: inline;
     color:#ffffff;
 }
 
-/* #address {
-    text-decoration: none;
-    color:#970000;
-    background-color: #ffffff;
+.input-label-right {
+    position: relative;
+    right: 400px;
 }
 
-#address:hover {
-    text-decoration: none;
-} */
+.two-hundred{
+    position: relative;
+    right: 410px;
+}
+
+.input-label-right2{
+    position: relative;
+    right: 500px;
+}
+
+#support {
+    position: relative;
+    left: 500px;
+    width: 300px;
+    height: 200px;
+    margin-top: 20px;
+}

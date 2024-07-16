@@ -33,17 +33,17 @@
       <br>
       <input type="checkbox" name="friend-family" id="friend-family">
       <option value="friend" class="check-box-label">Friend or Family Member</option>
-      <input type="text" name="friend-family" id="friend-family">
+      <input type="text" name="friend-family" id="friend-family" placeholder="Enter referal name if selected" class="text-input">
       <br>      
       <input type="checkbox" name="former-camper" id="former-camper">
-      <option value="former-camper" class="check-box-label">Former Camper</option>
+      <option value="former-camper" class="check-box-label">I was a Former Camper</option>
       <br>
-      <input type="text" name="former-camper" id="former-camper">
+      <input type="text" name="former-camper" id="former-camper" placeholder="List all M3 show(s) participated in if selected" class="text-input">
       <br>      
       <input type="checkbox" name="m3-staff" id="m3-staff">
       <option value="m3-staff" class="check-box-label">M3 Staff Member</option>
       <br>
-      <input type="text" name="m3-staff" id="m3-staff">
+      <input type="text" name="m3-staff" id="m3-staff" placeholder="Enter referal name if selected" class="text-input">
       <br>
       <input type="checkbox" name="social-media" id="social-media">
       <option value="social-media" class="check-box-label">Social Media</option>
@@ -57,43 +57,57 @@
       <input type="checkbox" name="other" id="other">
       <option value="other" class="check-box-label">Other</option>
       <br>
-      <input type="text" name="other" id="other">
+      <input type="text" name="other" id="other" class="text-input">
       <h2>Select a Donation Amount</h2>
       <input type="radio" name="$10">
       <option value="$10" class="check-box-label">$10</option>
-      <input type="radio" name="$15">
-      <option value="$15" class="check-box-label">$15</option>
+      <input type="radio" name="$15" class="input-label-right">
+      <option value="$15" class="check-box-label input-label-right oliver">$15</option>
       <input type="radio" name="$20">
       <option value="$20" class="check-box-label">$20</option>
-      <input type="radio" name="$25">
-      <option value="$25" class="check-box-label">$25</option>
+      <input type="radio" name="$25" class="input-label-right">
+      <option value="$25" class="check-box-label input-label-right">$25</option>
       <input type="radio" name="$50">
       <option value="$50" class="check-box-label">$50</option>
-      <input type="radio" name="$100">
-      <option value="$100" class="check-box-label">$100</option>
+      <input type="radio" name="$100" class="input-label-right">
+      <option value="$100" class="check-box-label input-label-right">$100</option>
       <input type="radio" name="$150">
       <option value="$150" class="check-box-label">$150</option>
-      <input type="radio" name="$200">
-      <option value="$200" class="check-box-label">$200</option>
-      <label for="other-amount">Other Amount</label>
-      <input type="number" name="other-amount" id="other-amount" class="check-box-label">
+      <input type="radio" name="$200" class="input-label-right two-hundred">
+      <option value="$200" class="check-box-label input-label-right two-hundred">$200</option>
       <br>
+      <label for="other-amount">Other Amount</label>
+      <input type="number" name="other-amount" id="other-amount" placeholder="$0.00" class="check-box-label text-input">
+      <br>
+      <h2>Donation Frequency</h2>
+      <label for="donation-frequency">I would this donation to be:</label>
+      <br>
+      <input type="radio" name="one-time" id="one-time">
+      <option value="one-time" class="check-box-label">One time</option>
+      <br>
+      <input type="radio" name="annual" id="annual">
+      <option value="annual" class="check-box-label">Annual</option>
+      <br>
+      <input type="radio" name="monthly" id="monthly">
+      <option value="monthly" class="check-box-label">Monthly</option>
+      <br>
+      <h2>Other Information</h2>
       <input type="checkbox" name="name-on-donation" id="name-on-donation">
-      <label for="name-on-donation" class="check-box-label">Name on donation</label>
-      <input type="text">
+      <label for="name-on-donation" class="check-box-label input-label-right2">Name on donation</label>
+      <input type="text" placeholder="Enter Name" class="text-input">
       <br>
       <input type="checkbox" name="anonymous" id="anonymous">
-      <label for="anonymous">I would like to make my donation anonymous.</label>
+      <label for="anonymous" class="input-label-right2">I would like to make my donation anonymous.</label>
       <input type="checkbox" name="honor-memory" id="honor-memory">
-      <label for="honor-memory">Dedicate my donation in honor or memory of someone:</label>
-      <input type="radio" name="honor" id="honor">
-      <label for="honor">In honor of</label>
-      <input type="text">
-      <input type="radio" name="memory" id="memory">
-      <label for="memory">In memory of</label>
+      <label for="honor-memory" class="input-label-right2">Dedicate my donation</label>
+      <input type="radio" name="honor" id="honor" class="check-box-label">
+      <label for="honor" class="input-label-right2">In honor of</label>
+      <input type="radio" name="memory" id="memory" class="check-box-label">
+      <label for="memory" class="input-label-right2">In memory of</label>
       <input type="text" placeholder="Honoree">
-      <input type="text">
+      <br>
       <label for="support-reason">Why do you choose to support M3?</label>
+      <br>
       <textarea name="support" id="support"></textarea>
       <input type="reset" id="reset" value="reset" class="bottom-button"> 
       <input type="submit" id="submit" value="submit" class="bottom-button">
