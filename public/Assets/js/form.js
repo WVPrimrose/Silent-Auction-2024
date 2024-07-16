@@ -1,6 +1,5 @@
 const submit = document.querySelector('#submit');
 const disabledSwitch = document.querySelector('.class')
-let disabled = true;
 
 function submitForm(event) {
     event.preventDefault();
@@ -11,11 +10,3 @@ function submitForm(event) {
 }
 
 submit.addEventListener('click', submitForm)
-disabledSwitch.addEventListener('click', function (){
-    if (disabled === true) {
-        disabled = fasle;
-    }
-    else {
-        disabled = false
-    }
-})
