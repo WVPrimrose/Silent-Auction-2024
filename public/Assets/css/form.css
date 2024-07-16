@@ -71,10 +71,6 @@ textarea {
     border-radius: 5px;
 }
 
-/* .address-input {
-    margin-bottom: -10px;
-} */
-
 .check-box-label {
 display: inline;
 }
@@ -107,4 +103,14 @@ display: inline;
     width: 300px;
     height: 200px;
     margin-top: 20px;
+}
+
+#baseball-size {
+    width: 30%;
+    height: 30%;
+}
+
+#chocolate-size {
+    width: 25%;
+    height: 25%;
 }
