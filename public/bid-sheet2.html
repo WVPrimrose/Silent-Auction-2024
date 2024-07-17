@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baseball Trading Cards Bidding Sheet</title>
+    <link rel="stylesheet" href="Assets/css/form.css">
+</head>
+<body>
+  <a href="index.html"><button>↵ Back to Main Page</button></a>
+    <h1>Bidding Sheet: Baseball Trading Cards</h1>
+    <p>View current bids</p>
+    <p>* = denotes required field</p>
+    <img src="Assets/img/Baseball-Trading.jpg" id="baseball-size">
+    <p>Starting Bid: $10</p>
+  <form action="">
+    <label for="name" class="form-label-title">Name*:</label>
+    <br>
+    <input type="text" id="name" placeholder="Enter Name" class="text-input" required>
+    <br>
+    <label for="bid" class="form-label-title">Bid*:</label>
+    <br>
+    <input type="number" name="bid" id="bid" placeholder="$0.00" class="text-input" required>
+    <input type="reset" id="reset" value="reset" class="bottom-button"> <br>
+    <input type="submit" id="submit" value="submit" class="bottom-button">
+  </form>
+  <script src="Assets/js/form.js"></script>
+</body>
+</html>

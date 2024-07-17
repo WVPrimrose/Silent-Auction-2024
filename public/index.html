@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>M3 Silent Auction 2024</title>
+    <link rel="stylesheet" href="Assets/css/style.css">
+</head>
+
+<body>
+    <header>
+        <h1>M3 Fall Fundraiser</h1>
+        <h2>Welcome to our second online silent auction!</h2>
+    </header>
+    <main>
+        <div>
+            <p>Thank you for joining us for our second silent auction! We appreciate the support and are hoping you go
+                <strong><em>WILD</em></strong> on bidding.
+            </p>
+            <p>Please fill out your <button type="button"><a href="bidder.html">Bidder Information</a></button> to
+                begin.</p>
+            <p>Then, click the following items to begin bidding:</p>
+        </div>
+        <br>
+        <h3>Aladdin Tickets on Broadway</h3>
+        <a href="bid-sheet.html"><img id="aladdin" src="Assets/img/Aladdin-Musical-Poster.jpg"
+                alt="Aladdin-Musical-Poster"></a>
+        <h3>Baseball Trading Cards</h3>
+        <a href="bid-sheet2.html"><img class="bigimg" id="baseball" src="Assets/img/Baseball-Trading.jpg" alt="Baseball Trading Cards"></a>
+        <h3>Chocolate Gift Basket</h3>
+        <a href="bid-sheet3.html"><img class="bigimg" id="chocolate" src="Assets/img/chocolate-basket.jpg" alt="Chocolate Gift Basket"></a>
+    </main>
+    <section>
+        <p>The auction will close at the start of the performance on Saturday November 1. We welcome all to come to our
+            fundraiser show and carnival at <a
+                href="https://www.google.com/maps/dir//College+Wood+Elementary+School,+Shelborne+Road,+Carmel,+IN/@39.96543,-86.2610386,13z/data=!4m8!4m7!1m0!1m5!1m1!1s0x8814aa5150c2501d:0x7a65b7f52a798ab6!2m2!1d-86.2199731!2d39.9658018?entry=ttu">College
+                Wood Elementary</a> from 3pm to 7pm. Doors open at 4pm.</p>
+        <p>Follow these links to purchase tickets and learn more about the activities.</p>
+        <p>Winners may collect their items at the fundraiser or have them delievered to their home upon recipet of
+            payment.</p>
+
+        <p id="donations">Those who would like to make a donation can click on this button: </p>
+        <button type="button" class="donate-button"><a href="donations-form.html">Donations</a></button>
+    </section>
+    <footer>
+        <a href="https://www.m3theatrecamp.com/" class="m3-links">
+            <h2 class="m3-links">Visit our M3 Theater Camp Website!</h2>
+        </a>
+        <h2 class="m3-links" id="social-media"> Follow us!</h2>
+        <a href="https://www.facebook.com/Meridian845/"><img src="Assets/img/Facebook.png" alt="Facebook Logo"></a>
+    </footer>
+    <script id="auction-items" type="text/x-handlebars-template">
+        <h3>{{name}}</h3>
+        <a href = ""><img id="aladdin" src="Assets/img/{{shortCode}}" alt="Aladdin-Musical-Poster"></a>shortCode: "Aladdin"
+    </script>
+</body>
+<script src="js/jquery-3.7.1.min.js"></script>
+<script src="js/handlebars-v4.7.8.js"></script>
+<script src="Assets/js/script.js"></script>
+
+</html>

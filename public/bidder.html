@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bidder Information</title>
+  <link rel="stylesheet" href="Assets/css/form.css">
+</head>
+
+<body>
+  <header>
+    <a href="index.html"><button>↵ Back to Main Page</button></a>
+    <h1>Bidder Form Information</h1>
+    <p>* = denotes required field</p>
+  </header>
+
+  <main>
+    <form action="">
+      <h2>Contact Information</h2>
+      <label for="name" class="form-label-title">Name*:</label>
+      <br>
+      <input type="text" id="name" placeholder="Enter Name" class="text-input" required>
+      <br>
+      <label for="email" class="form-label-title">Email Address*:</label>
+      <br>
+      <input type="email" name="email" id="email" placeholder="Enter Email" class="text-input" required>
+      <br>
+      <label for="telphone" class="form-label-title">Phone Number:</label>
+      <br>
+      <input type="tel" name="phone-number" id="phone-number" placeholder="(000)-000-0000" class="text-input">
+      <br>
+      <label for="hear-about-us" class="form-label-title">How did you hear about us?</label>
+      <br>
+      <input type="checkbox" name="friend-family" id="friend-family" class="if">
+      <option value="friend" class="check-box-label">Friend or Family Member</option>
+      <input type="text" name="friend-family" id="friend-family" placeholder="Enter referal name if selected" class="text-input">
+      <br>      
+      <input type="checkbox" name="former-camper" id="former-camper">
+      <option value="former-camper" class="check-box-label">I was a Former Camper</option>
+      <br>
+      <input type="text" name="former-camper" id="former-camper" placeholder="List all M3 show(s) participated in if selected" class="text-input">
+      <br>      
+      <input type="checkbox" name="m3-staff" id="m3-staff">
+      <option value="m3-staff" class="check-box-label">M3 Staff Member</option>
+      <br>
+      <input type="text" name="m3-staff" id="m3-staff" placeholder="Enter referal name if selected" class="text-input">
+      <br>
+      <input type="checkbox" name="social-media" id="social-media">
+      <option value="social-media" class="check-box-label">Social Media</option>
+      <br>
+      <input type="checkbox" name="website" id="website">
+      <option value="Website" class="check-box-label">Website</option>
+      <br>
+      <input type="checkbox" name="google" id="google">
+      <option value="google" class="check-box-label">Google</option>
+      <br>
+      <input type="checkbox" name="other" id="other">
+      <option value="other" class="check-box-label">Other</option>
+      <br>
+      <input type="text" name="other" id="other" class="text-input">
+
+      <input type="reset" id="reset" value="reset" class="bottom-button"> <br>
+      <input type="submit" id="submit" value="submit" class="bottom-button">
+    </form>
+  </main>
+
+  <script src="Assets/js/form.js"></script>
+</body>
+
+</html>

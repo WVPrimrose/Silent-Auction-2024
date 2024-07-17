@@ -1,0 +1,121 @@
+* {
+    background-color: #ffcb8f;
+}
+
+a button {
+    display: inline;
+    background-color:#970000;
+    color:#ffffff;
+    position: relative;
+    left: 300px;
+    text-decoration: none;
+}
+
+a button:visited {
+    text-decoration: none;
+}
+
+h1 {
+    display: inline;
+    margin-left: 400px;
+}
+
+form h2,
+p,
+img,
+form label,
+form input {
+    margin-left: 500px;
+}
+
+form {
+    align-items: center;
+}
+
+form label,
+form input {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+form input,
+textarea {
+    background-color: #ffffff;
+}
+
+.form-label-title {
+    font-size: 18px;
+    font-weight: 900; 
+}
+
+.if-q {
+    background-color: #fbff00;
+}
+
+.text-input {
+    width: 400px;
+    border: 1px solid #000000
+}
+
+.text-input:hover {
+    border: 3px solid #970000;
+    background-color: #dadada;
+}
+
+.text-input:focus {
+    border-color: 2px solid #dd6300;
+}
+
+.text-input:active {
+    border-color: 2px solid #fffb00;
+    border-radius: 5px;
+}
+
+.check-box-label {
+display: inline;
+}
+
+.bottom-button {
+    margin-right: 300px;
+    width: 400px;
+    background-color:#970000;
+    color:#ffffff;
+}
+
+.input-label-right {
+    position: relative;
+    right: 400px;
+}
+
+.two-hundred{
+    position: relative;
+    right: 410px;
+}
+
+.input-label-right2{
+    position: relative;
+    right: 500px;
+}
+
+#support {
+    position: relative;
+    left: 500px;
+    width: 400px;
+    height: 200px;
+    margin-top: 20px;
+}
+
+#baseball-size {
+    width: 30%;
+    height: 30%;
+}
+
+#chocolate-size {
+    width: 25%;
+    height: 25%;
+}
+
+#other-label {
+    display: block;
+    margin-top:20px;
+}
