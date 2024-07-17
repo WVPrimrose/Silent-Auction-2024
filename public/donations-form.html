@@ -59,13 +59,14 @@
       <br>
       <input type="text" name="other" id="other" class="text-input">
       <h2>Select a Donation Amount</h2>
-      <option value="$25" class="check-box-label input-label-right">$25</option>
-      <input type="radio" name="$50">
-      <option value="$50" class="check-box-label">$50</option>
-      <input type="radio" name="$100" class="input-label-right">
-      <option value="$100" class="check-box-label input-label-right">$100</option>
-      <input type="radio" name="$150">
-      <label for="other-amount">Other Amount</label>
+      <input type="radio" name="$25">
+      <option value="$25" class="check-box-label">$25</option>
+      <input type="radio" name="$50" class="check-box-label input-label-right">
+      <option value="$50" class="check-box-label input-label-right">$50</option>
+      <input type="radio" name="$100">
+      <option value="$100" class="check-box-label">$100</option>
+      <br>
+      <label for="other-amount" id="other-label">Other Amount</label>
       <input type="number" name="other-amount" id="other-amount" placeholder="$0.00" class="check-box-label text-input">
       <br>
       <h2>Donation Frequency</h2>
@@ -87,13 +88,16 @@
       <br>
       <input type="checkbox" name="anonymous" id="anonymous">
       <label for="anonymous" class="input-label-right2">I would like to make my donation anonymous.</label>
+      <input type="checkbox" name="coporate-donating" id="coporate-donating">
+      <label for="coporate-donating" class="input-label-right2">Donate on behalf of a company</label>
+      <input type="text" name="company-name" id="company-name" placeholder="Enter company name" class="text-input">
       <input type="checkbox" name="honor-memory" id="honor-memory">
       <label for="honor-memory" class="input-label-right2">Dedicate my donation</label>
       <input type="radio" name="honor" id="honor" class="check-box-label">
       <label for="honor" class="input-label-right2">In honor of</label>
       <input type="radio" name="memory" id="memory" class="check-box-label">
       <label for="memory" class="input-label-right2">In memory of</label>
-      <input type="text" placeholder="Honoree">
+      <input type="text" placeholder="Honoree" class="text-input">
       <br>
       <label for="support-reason">Why do you choose to support M3?</label>
       <br>

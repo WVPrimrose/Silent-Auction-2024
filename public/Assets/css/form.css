@@ -100,7 +100,7 @@ display: inline;
 #support {
     position: relative;
     left: 500px;
-    width: 300px;
+    width: 400px;
     height: 200px;
     margin-top: 20px;
 }
@@ -113,4 +113,9 @@ display: inline;
 #chocolate-size {
     width: 25%;
     height: 25%;
+}
+
+#other-label {
+    display: block;
+    margin-top:20px;
 }
